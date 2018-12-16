@@ -1,0 +1,32 @@
+{
+  "operation": "RemoveFavoriteMutation",
+  "response": {
+    "data": {
+      "removeFavorite": [{
+        "id": 1893,
+        "title": "Star Wars: Episode I - The Phantom Menace",
+        "releaseYear": "1999",
+        "tagline": "Every generation has a legend. Every journey has a first step. Every saga has a beginning.",
+        "genres": [{
+            "name": "Adventure",
+            "id": 12
+          },
+          {
+            "name": "Action",
+            "id": 28
+          },
+          {
+            "name": "Science Fiction",
+            "id": 878
+          }
+        ],
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "rating": 6.4,
+        "poster": {
+          "fullPath": "https://image.tmdb.org/t/p/w154/n8V09dDc02KsSN6Q4hC2BX6hN8X.jpg"
+        }
+      }]
+    }
+  }
+
+}

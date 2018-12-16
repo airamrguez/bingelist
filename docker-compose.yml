@@ -1,7 +1,7 @@
 version: '3'
 services:
   moviesearch:
-    image: "codingventures/movie-service:v0.3.0"
+    image: "codingventures/movie-service:v0.2.2"
     ports:
      - "4000:4000"
     environment: 

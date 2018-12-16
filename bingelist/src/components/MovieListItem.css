@@ -1,0 +1,141 @@
+.movie {
+  position: relative;
+  margin: 1em 0;
+  display: flex;
+  height: 231px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.movie.expanded {
+  border-radius: 4px;
+  box-shadow: #000 -1px 1px 4px;
+  justify-content: flex-start;
+}
+
+.movie .poster-container {
+  position: relative;
+  min-width: 154px;
+}
+
+.movie .poster {
+  align-self: flex-start;
+  pointer-events: none;
+}
+
+.movie .description {
+  position: relative;
+  background: #fff;
+  flex: 1 1 auto;
+  padding: 1em;
+  width: calc(50% - 154px);
+  overflow: hidden;
+}
+
+.movie .heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+  pointer-events: none;
+}
+
+.movie .title {
+  flex: 1 1 84%;
+  font-size: 1.4em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-right: 1em;
+  pointer-events: none;
+}
+
+.movie .rating {
+  display: flex;
+  flex: 0 0 40px;
+  align-items: center;
+  font-size: 1.3em;
+  color: rgb(155, 155, 155);
+  pointer-events: none;
+}
+
+.movie .rating .value {
+  margin-right: 0.25em;
+}
+
+.movie .subheading {
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.movie .year {
+  margin-left: 0.25em;
+}
+
+.movie .genres {
+  font-style: italic;
+  color: rgb(155, 155, 155);
+  max-width: 65%;
+}
+
+.movie .overview {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 3em 0 1em;
+  pointer-events: none;
+}
+
+.movie .overview p {
+  margin: 0;
+}
+
+.movie .footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: linear-gradient(0deg, #ccc, #ccc 50%, transparent 50%);
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 2px;
+  position: absolute;
+  bottom: 4px;
+  left: 1em;
+  right: 1em;
+}
+
+.movie .footer img {
+  margin-right: auto;
+}
+
+.truncate-line {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.movie .bookmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.movie .bookmark button {
+  padding: 0;
+  margin: 0;
+  appearance: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.movie .median-star {
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}

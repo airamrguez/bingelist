@@ -1,0 +1,90 @@
+directive @cacheControl(maxAge: Int, scope: CacheControlScope) on FIELD_DEFINITION | OBJECT | INTERFACE
+
+type Actor {
+  name: String!
+  character: String
+  profileImage(size: ProfileImageSize!): ProfileImage
+}
+
+enum CacheControlScope {
+  PUBLIC
+  PRIVATE
+}
+
+type Genre {
+  id: Int!
+  name: String!
+}
+
+type Movie {
+  id: Int!
+  title: String!
+  tagline: String
+  overview: String
+  releaseYear: String
+  releaseDate: String
+  popularity: Float
+  rating: Float!
+  ratingCount: Int
+  runtime: Int
+  revenue: Int
+  budget: Int
+  originalLanguage: String
+  poster(size: PosterSize!): Poster
+  genres: [Genre!]
+  cast: [Actor!]
+}
+
+type MovieCollection {
+  metadata: PageInfo!
+  data: [Movie!]
+}
+
+type Mutation {
+  addFavorite(movieId: Int!): [Movie!]
+  removeFavorite(movieId: Int!): [Movie!]
+}
+
+type PageInfo {
+  limit: Int!
+  offset: Int!
+  total: Int!
+}
+
+type Poster {
+  size: PosterSize
+  fullPath: String!
+}
+
+enum PosterSize {
+  SMALL
+  MEDIUM
+  LARGE
+}
+
+type ProfileImage {
+  size: ProfileImageSize
+  fullPath: String!
+}
+
+enum ProfileImageSize {
+  SMALL
+  LARGE
+}
+
+type Query {
+  allMovies(genre: String, rating: Float, offset: Int, limit: Int): MovieCollection!
+  genres: [Genre!]
+  favorites: [Movie!]
+}
+
+"""
+The `Upload` scalar type represents a file upload promise that resolves an
+object containing `stream`, `filename`, `mimetype` and `encoding`.
+"""
+scalar Upload
+
+"""Workaround a bug in relay when there is no ID defined in the schema"""
+type test {
+  id: ID
+}

@@ -1,0 +1,14 @@
+.grid {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.grid .column {
+  padding: 0.25em 0;
+  width: calc(50% - 0.5em);
+  min-width: 154px;
+}
+
+.grid .column+.column {
+  margin-left: 1em;
+}

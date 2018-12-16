@@ -1,0 +1,118 @@
+{
+  "operation": "MovieSearchPageRefetchQuery",
+  "response": {
+    "data": {
+      "allMovies": {
+        "data": [{
+            "id": 1893,
+            "title": "Star Wars: Episode I - The Phantom Menace",
+            "releaseYear": "1999",
+            "tagline": "Every generation has a legend. Every journey has a first step. Every saga has a beginning.",
+            "genres": [{
+                "name": "Adventure",
+                "id": 12
+              },
+              {
+                "name": "Action",
+                "id": 28
+              },
+              {
+                "name": "Science Fiction",
+                "id": 878
+              }
+            ],
+            "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+            "rating": 6.4,
+            "poster": {
+              "fullPath": "https://image.tmdb.org/t/p/w154/n8V09dDc02KsSN6Q4hC2BX6hN8X.jpg"
+            }
+          }, {
+            "id": 205596,
+            "title": "The Imitation Game",
+            "releaseYear": "2014",
+            "tagline": "The true enigma was the man who cracked the code.",
+            "genres": [{
+                "name": "Adventure",
+                "id": 12
+              }, {
+                "name": "History",
+                "id": 36
+              },
+              {
+                "name": "Drama",
+                "id": 18
+              },
+              {
+                "name": "Thriller",
+                "id": 53
+              },
+              {
+                "name": "War",
+                "id": 10752
+              }
+            ],
+            "overview": "Based on the real life story of legendary cryptanalyst Alan Turing, the film portrays the nail-biting race against time by Turing and his brilliant team of code-breakers at Britain's top-secret Government Code and Cypher School at Bletchley Park, during the darkest days of World War II.",
+            "rating": 8,
+            "poster": {
+              "fullPath": "https://image.tmdb.org/t/p/w154/noUp0XOqIcmgefRnRZa1nhtRvWO.jpg"
+            }
+          },
+          {
+            "id": 472454,
+            "title": "Ayla: The Daughter of War",
+            "releaseYear": "2017",
+            "tagline": "",
+            "genres": [{
+                "name": "Adventure",
+                "id": 12
+              }, {
+                "name": "Drama",
+                "id": 18
+              },
+              {
+                "name": "War",
+                "id": 10752
+              },
+              {
+                "name": "History",
+                "id": 36
+              }
+            ],
+            "overview": "In 1950, amidst the ravages of the Korean War, Sergeant Süleyman stumbles upon a a half-frozen little girl, with no parents and no help in sight. Frantic, scared and on the verge of death, this little girl captures the heart of Süleyman, who risks his own life to save her, smuggling her into his Army base and out of harms way. Not knowing her name and unable to communicate with her, Süleyman names her Ayla, in reminiscence of the moon on the fateful night during which they met. The two form an instantaneous and inseparable bond, and Ayla, almost effortlessly, brings an uncanny joy to the Turkish brigade in the grip of war. As the war comes to a close however, Süleyman's brigade is told that they will be returning home. Süleyman cannot bear abandoning Ayla, and does everything within his power to take her with him. After repeated failure, he is forced to give Ayla to an orphanage, but doesn't give up on the hope of one day reuniting with her. Will the two ever get back together?",
+            "rating": 8.1,
+            "poster": {
+              "fullPath": "https://image.tmdb.org/t/p/w154/iY1HQHv2ksUQrOM5YFtH3H7d9P.jpg"
+            }
+          },
+          {
+            "id": 429351,
+            "title": "12 Strong",
+            "releaseYear": "2018",
+            "tagline": "The declassified true story of the horse soldiers",
+            "genres": [{
+                "name": "Adventure",
+                "id": 12
+              }, {
+                "name": "War",
+                "id": 10752
+              },
+              {
+                "name": "Drama",
+                "id": 18
+              },
+              {
+                "name": "History",
+                "id": 36
+              }
+            ],
+            "overview": "A team of CIA agents and special forces head into Afghanistan in the aftermath of the September 11th attacks in an attempt to dismantle the Taliban.",
+            "rating": 4.9,
+            "poster": {
+              "fullPath": "https://image.tmdb.org/t/p/w154/j18021qCeRi3yUBtqd2UFj1c0RQ.jpg"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

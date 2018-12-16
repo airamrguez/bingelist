@@ -1,0 +1,62 @@
+{
+  "operation": "AddFavoriteMutation",
+  "response": {
+    "data": {
+      "addFavorite": [{
+        "id": 1893,
+        "title": "Star Wars: Episode I - The Phantom Menace",
+        "rating": 6.4,
+        "releaseYear": "1999",
+        "tagline": "Every generation has a legend. Every journey has a first step. Every saga has a beginning.",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "genres": [{
+          "name": "Adventure"
+        }, {
+          "name": "Action"
+        }, {
+          "name": "Science Fiction"
+        }],
+        "poster": {
+          "fullPath": "https://image.tmdb.org/t/p/w154/n8V09dDc02KsSN6Q4hC2BX6hN8X.jpg"
+        }
+      }, {
+        "id": 1724,
+        "title": "The Incredible Hulk",
+        "rating": 6.1,
+        "releaseYear": "2008",
+        "tagline": "You'll like him when he's angry.",
+        "overview": "Scientist Bruce Banner scours the planet for an antidote to the unbridled force of rage within him: the Hulk. But when the military masterminds who dream of exploiting his powers force him back to civilization, he finds himself coming face to face with a new, deadly foe.",
+        "genres": [{
+          "name": "Science Fiction"
+        }, {
+          "name": "Action"
+        }, {
+          "name": "Adventure"
+        }],
+        "poster": {
+          "fullPath": "https://image.tmdb.org/t/p/w154/bleR2qj9UluYl7x0Js7VXuLhV3s.jpg"
+        }
+      }, {
+        "id": 205596,
+        "title": "The Imitation Game",
+        "rating": 8,
+        "releaseYear": "2014",
+        "tagline": "The true enigma was the man who cracked the code.",
+        "overview": "Based on the real life story of legendary cryptanalyst Alan Turing, the film portrays the nail-biting race against time by Turing and his brilliant team of code-breakers at Britain's top-secret Government Code and Cypher School at Bletchley Park, during the darkest days of World War II.",
+        "genres": [{
+          "name": "History"
+        }, {
+          "name": "Drama"
+        }, {
+          "name": "Thriller"
+        }, {
+          "name": "War"
+        }],
+        "poster": {
+          "fullPath": "https://image.tmdb.org/t/p/w154/noUp0XOqIcmgefRnRZa1nhtRvWO.jpg"
+        }
+      }]
+    }
+  }
+
+}
